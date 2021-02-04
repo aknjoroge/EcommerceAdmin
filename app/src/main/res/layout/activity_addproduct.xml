@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context=".addproduct">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/red"
+                    android:background="@drawable/custominput"
+                    android:text="Cancel" />
+
+                <Button
+                    android:id="@+id/upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custominput"
+                    android:layout_weight="1"
+                    android:textColor="@color/blue"
+                    android:text="Upload" />
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/adminprogressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+
+            <Spinner
+
+                android:id="@+id/locspinner"
+                android:layout_width="260dp"
+android:layout_gravity="center"
+                android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+                android:layout_height="40dp" />
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/uploadimage"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/pit2" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tap Image To Open Gallery"
+                android:textAlignment="center" />
+
+            <EditText
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/uploadname"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custominput"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:hint="Name"/>
+
+            <EditText
+                android:id="@+id/uploadprice"
+                android:layout_width="260dp"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:background="@drawable/custominput"
+                android:ems="10"
+                android:inputType="number"
+                android:hint="Price" />
+
+            <EditText
+                android:id="@+id/uploaddescription"
+                android:layout_gravity="center"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custominput"
+                android:ems="10"
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:inputType="textPersonName"
+                android:hint="Description" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

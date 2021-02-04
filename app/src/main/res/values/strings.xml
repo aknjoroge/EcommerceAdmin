@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PorkpitAdmin</string>
+
+    <string-array name="locations">
+        <item>Choose Location</item>
+        <item>Nairobi</item>
+        <item>Ruaka</item>
+        <item>Kikuyu</item>
+        <item>Dagoretti</item>
+        <item>Mombasa</item>
+        <item>Wangige</item>
+
+
+    </string-array>
+
+    <string-array name="categoryarray">
+        <item>Choose Category</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Family</item>
+        <item>Accompaniments</item>
+        <item>Meat</item>
+        <item>Kiddies</item>
+        <item>Bevarage</item>
+        <item>Chicken</item>
+        <item>Offers</item>
+    </string-array>
+
+    <string-array name="categoryarray2">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Family</item>
+        <item>Accompaniments</item>
+        <item>Meat</item>
+        <item>Kiddies</item>
+        <item>Bevarage</item>
+        <item>Chicken</item>
+        <item>Offers</item>
+    </string-array>
+
+
+</resources>

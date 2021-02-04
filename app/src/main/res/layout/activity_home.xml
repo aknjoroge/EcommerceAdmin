@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/accbg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Dash"
+        android:textAlignment="center" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/view2"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="#ffffff"
+        android:shape="ring"
+        app:cardCornerRadius="95dp">
+
+        <ImageView
+            android:id="@+id/dpinsetting"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pit2" />
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custominput"
+        android:text="Add Product"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/viewallbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custominput"
+        android:text="View Products"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/orderbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/custominput"
+        android:text="View Orders"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
+        android:id="@+id/checkpaid"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/custominput"
+        android:text="Check Payment"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/viewusrs"
+        android:layout_width="250dp"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custominput"
+        android:text="Get USer"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
